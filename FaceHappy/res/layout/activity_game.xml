@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_fanhui"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bg_save"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_fengxiang"
+            android:text="" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_myview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#1082EF"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="horizontal" >
+           <RadioGroup
+    android:id="@+id/radioGroup1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/radio0"
+		style="@style/RadioButtonStyle"
+        android:text="脸型" />
+
+    <RadioButton
+        android:id="@+id/radio1"
+style="@style/RadioButtonStyle"
+        android:text="头发" />
+
+    <RadioButton
+        android:id="@+id/radio2"
+style="@style/RadioButtonStyle"
+        android:text="眉毛" />
+    
+        <RadioButton
+        android:id="@+id/radio2"
+style="@style/RadioButtonStyle"
+        android:text="嘴巴" />
+            <RadioButton
+        android:id="@+id/radio2"
+style="@style/RadioButtonStyle"
+        android:text="衣服" />
+    
+</RadioGroup> 
+            <textview
+                android:layout_width="100dp"
+                android:layout_height="2dp"
+                android:background="#0000ff"
+                />
+            
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+</LinearLayout>

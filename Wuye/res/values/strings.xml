@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wuye</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_one">OneActivity</string>
+    <string name="title_activity_wu_ye">WuYe</string>
+    <string name="title_activity_tian_jia">TianJia</string>
+    <string name="title_activity_jiao_fei">JiaoFei</string>
+    <string name="title_activity_wei_xiu">WeiXiu</string>
+    <string name="title_activity_gong_gao">GongGao</string>
+    <string name="title_activity_shou_fei">ShouFei</string>
+    <string name="title_activity_bao_xiu">BaoXiu</string>
+    <string name="title_activity_gong_gao_x">GongGao_x</string>
+    <string name="title_activity_listview_gonggao">Listview_gonggao</string>
+    <string name="title_activity_listview_weixiu">Listview_weixiu</string>
+    <string name="title_activity_list_view_weixiu">ListView_weixiu</string>
+    <string name="title_activity_shou_fei_qk">ShouFeiQK</string>
+    <string name="title_activity_sfqkmuban">SFQKmuban</string>
+    <string name="title_activity_abc">AbcActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_xiu_gaimima">XiuGaimima</string>
+
+</resources>

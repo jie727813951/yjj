@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wuye"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.example.wuye" >
+    </instrumentation>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.example.wuye.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.OneActivity"
+            android:label="@string/title_activity_one" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.WuYe"
+            android:label="@string/title_activity_wu_ye" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.TianJia"
+            android:label="@string/title_activity_tian_jia" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.JiaoFei"
+            android:label="@string/title_activity_jiao_fei" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.WeiXiu"
+            android:label="@string/title_activity_wei_xiu" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.GongGao"
+            android:label="@string/title_activity_gong_gao" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.ShouFei"
+            android:label="@string/title_activity_shou_fei" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.BaoXiu"
+            android:label="@string/title_activity_bao_xiu" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.GongGao_x"
+            android:label="@string/title_activity_gong_gao_x" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.Listview_gonggao"
+            android:label="@string/title_activity_listview_gonggao" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.Listview_weixiu"
+            android:label="@string/title_activity_listview_weixiu" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.ListView_weixiu"
+            android:label="@string/title_activity_list_view_weixiu" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.ShouFeiQK"
+            android:label="@string/title_activity_shou_fei_qk" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.SFQKmuban"
+            android:label="@string/title_activity_sfqkmuban" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.AbcActivity"
+            android:label="@string/title_activity_abc" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.wuye.Splash"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.wuye.XiuGaimima"
+            android:label="@string/title_activity_xiu_gaimima" >
+        </activity>
+    </application>
+
+</manifest>

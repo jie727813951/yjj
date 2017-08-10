@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/denglu_back"
+    android:orientation="vertical"
+    tools:context=".GongGao" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text="公告通知:" />
+
+    <EditText
+        android:id="@+id/gg_nr"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingBottom="150dp"
+        android:ems="500" >
+
+        <requestFocus />
+    </EditText>
+
+    
+        <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        >
+      <Button
+        android:id="@+id/button1"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="fabu"
+        android:background="@drawable/denglu_button"
+        android:text="发布" />
+    </LinearLayout>
+
+        
+
+</LinearLayout>

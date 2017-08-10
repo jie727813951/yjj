@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/denglu_back"
+    android:orientation="vertical"
+    tools:context=".OneActivity" >
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        >
+        <Button
+          	android:id="@+id/button3"
+          	android:layout_width="wrap_content"
+         	android:layout_height="wrap_content"
+         	android:background="@drawable/denglu_button"
+         	android:onClick="gaimima"
+        	android:text="修改密码" />
+        
+        <Button
+        	android:id="@+id/zhuxiao_yz"
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:background="@drawable/ecport"
+        	android:layout_marginLeft="230dp"
+        	android:onClick="zhuxiao"
+        	android:text="" />
+    </LinearLayout>
+    
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/yezhu_jb"
+            android:text="报修维护"
+            android:onClick="baoxiu"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/yezhu_jb"
+            android:onClick="ggxinxi"
+            android:textSize="20dp"
+            android:text="公告信息" />
+    </LinearLayout>
+            <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/yezhu_jb"
+            android:text="缴费情况"
+            android:onClick="jiaofei"
+            android:textSize="20dp" />
+
+            
+
+</LinearLayout>

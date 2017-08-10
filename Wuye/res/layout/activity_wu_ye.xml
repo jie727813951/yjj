@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/denglu_back"
+    tools:context=".WuYe" >
+    
+    <Button
+                android:id="@+id/zhuxiao_wy"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ecport"
+                android:layout_gravity="right"
+                android:onClick="tuichu"
+                android:text="" />
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp" >
+
+        
+
+       <Button
+            android:id="@+id/wx"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/yezhu_jb"
+            android:text="维修信息"
+            android:onClick="weixiu"
+            android:textSize="20dp" />
+            
+        <Button
+            android:id="@+id/sftz"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/yezhu_jb"
+            android:text="收费通知"
+            android:onClick="shoufei"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center" >
+
+
+
+        <Button
+            android:id="@+id/wx"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/yezhu_jb"
+            android:layout_gravity="center"
+            android:text="公告信息"
+            android:onClick="ggxinxi"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/gg"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/yezhu_jb"
+            android:textSize="20dp"
+            android:onClick="gonggao"
+            android:text="发布公告" />
+    </LinearLayout>
+    
+    
+</LinearLayout>
